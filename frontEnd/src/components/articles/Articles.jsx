@@ -16,9 +16,9 @@ const Portfolio = () => {
     },[])
 
   return (
-    <div name='articles' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name='articles' className='w-full h-auto pt-14 pb-10 bg-gradient-to-b from-black to-gray-800  text-white '>
         
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto '>
             
         <div>
           
@@ -29,7 +29,11 @@ const Portfolio = () => {
             <p className="py-6">Here you find a fiew articles to get an idea of the webDev:</p>
           
           <Link to="/articles">
-            <button>See all</button>
+            {/* <button className="rounded-full py-2 px-2 uppercase text-xs font-bold cursor-pointer tracking-wider border-amber-600 border-2 hover:scale-105 hover:bg-amber-700 hover:text-white duration-500 text-amber-500"> */}
+            <button className="rounded-full px-6 py-3  mx-auto uppercase text-xs font-bold cursor-pointer tracking-wider border-amber-600 border-2 hover:scale-105 hover:bg-gradient-to-b hover:from-amber-700 hover:to-yellow-500 hover:text-white duration-500 text-amber-500">
+              See all
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block"><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" /></svg>
+            </button>
           </Link>
           
           </div>

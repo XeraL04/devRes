@@ -17,7 +17,7 @@ const Video = () => {
 
   return (
     <>
-    <div className="bg-gradient-to-b from-black to-gray-800 ">
+    <div className="h-full w-full bg-gradient-to-b from-black to-gray-800 ">
 
       <div className=" mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

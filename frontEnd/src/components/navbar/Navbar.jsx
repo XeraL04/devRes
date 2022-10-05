@@ -25,7 +25,7 @@ const Navbar = () => {
     ]
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky ">
         <div>
             <h1 className="text-5xl font-signature ml-2">devResources</h1>
         </div>
@@ -53,13 +53,13 @@ const Navbar = () => {
 
                 <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
                   
-                    {links.map(({id, link}) =>(
+                    {links.map(({id, link, page}) =>(
                         <li 
                             key={id} 
                             className="px-4 cursor-pointer capitalize py-6 text-4xl"
                         >
-                        <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
-                            {link}
+                        <Link onClick={() => setNav(!nav)} to={link}  duration={500}>
+                            {page}
                         </Link>
                         </li>
                     ))}  
