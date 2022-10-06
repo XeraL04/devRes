@@ -5,6 +5,7 @@ import cors from "cors";
 
 import videoRoutes from "./routes/videos.js"
 import articleRouter from "./routes/articles.js"
+import roadmapRouter from "./routes/roadmap.js"
 
 const app = express();
 app.use(cors());
@@ -23,6 +24,7 @@ const connect = () =>{
 
 app.use("/api", videoRoutes)
 app.use("/api", articleRouter)
+app.use("/api", roadmapRouter)
 
 app.listen("5000",()=>{
     connect();

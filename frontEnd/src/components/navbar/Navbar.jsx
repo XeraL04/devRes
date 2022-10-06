@@ -22,6 +22,11 @@ const Navbar = () => {
             page:'videos',
             link:'/video'
         },
+        {
+            id:5,
+            page:'roadmaps',
+            link:'/roadmaps'
+        },
     ]
 
   return (
