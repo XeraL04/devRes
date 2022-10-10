@@ -6,6 +6,7 @@ import Articles from '../../components/articles/Articles'
 import Videos from '../../components/videos/Videos'
 import Roadmaps from '../../components/roadmaps/Roadmaps'
 import Contact from '../../components/contact/Contact'
+// import CardShuffle from '../../components/card/CardShuffle'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <Videos/>        
         <Roadmaps/>
         <Contact/>
+        {/* <CardShuffle/> */}
     </div>
   )
 }

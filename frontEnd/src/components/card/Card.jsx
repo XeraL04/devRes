@@ -7,7 +7,7 @@ const Videos = ({video}) => {
 
       <div className='w-full text-center items-center mt-1'>
 
-        <div className='rounded-lg overflow-hidde text-white mx-auto px-4 py-6 shadow-md hover:scale-105 duration-500 shadow-green-500'>
+        <div className='rounded-lg overflow-hidde text-white mx-auto px-4 py-6 shadow-md transform transition-all hover:scale-110 shadow-green-500'>
                 
           <img src={video.imgUrl} alt="videoImg" className='sm:h-42 sm:w-full  object-cover'/>
                 
@@ -20,7 +20,20 @@ const Videos = ({video}) => {
             </div>              
 
             <a href={video.videoUrl}>
-              <button className="sm:w-20 sm:mt-3 rounded-lg bg-green-600 hover:scale-105 duration-500 shadow-md shadow-emerald-700">Watch</button>
+              <button 
+                className="relative group overflow-hidden px-7 h-10 rounded-md bg-green-500
+                before:absolute 
+                before:inset-0 
+                before:bg-green-600 
+                before:scale-y-[0.1] 
+                before:origin-bottom
+                before:transition
+                before:duration-300
+                hover:before:scale-y-100">
+                    <span className="relative uppercase text-base text-white">
+                      Watch
+                    </span>
+              </button>
             </a>
 
         </div>
