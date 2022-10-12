@@ -22,6 +22,7 @@ const Home = () => {
         <Roadmaps/>
         <Contact/>
         {/* <CardShuffle/> */}
+    
     </div>
   )
 }

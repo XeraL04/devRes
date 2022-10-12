@@ -42,7 +42,7 @@ const Video = () => {
         </div>
       
       </div>
-    
+
     </div>
   </>
   )

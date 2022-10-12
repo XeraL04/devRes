@@ -5,6 +5,7 @@ import Home from './pages/home/Home'
 import Video from './pages/video/Video'
 import Articles from './pages/articles/Articles'
 import Roadmaps from './pages/roadmaps/Roadmaps'
+import Footer from './components/footer/Footer'
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/roadmaps" element={<Roadmaps/>}/>
         
         </Routes>
+      <Footer/>
     </div>
   )
 }
