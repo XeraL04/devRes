@@ -26,7 +26,18 @@ const Videos = () => {
         
         <div>
           
-            <h1 className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Videos</h1>
+          <div className="flex flex-column">
+
+            <div className="pr-3 pt-2">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 010 1.954l-7.108 4.061A1.125 1.125 0 013 16.811z" />
+              </svg>
+
+            </div>
+
+            <h1 className="text-4xl font-bold p-2 ">Videos</h1>
+          </div>
             
             <div className="flex flex-row justify-between">
 

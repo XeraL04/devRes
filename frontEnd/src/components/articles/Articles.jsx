@@ -20,9 +20,23 @@ const Articles = () => {
         
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto '>
             
-        <div>
+        <div >
           
-          <h1 className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Articles</h1>
+          <div className='flex flex-column'>
+            
+            <div className='pr-3 pt-2'>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className=" w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+              </svg>
+            
+            </div>
+
+
+            <h1 className="text-4xl font-bold  p-2">Articles</h1>
+          
+          </div>
+          
           
           <div className="flex flex-row justify-between">
 

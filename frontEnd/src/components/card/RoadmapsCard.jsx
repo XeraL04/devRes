@@ -2,13 +2,28 @@ import React from 'react'
 
 const RoadmapsCard = ({roadmap}) => {
   return (
-    <div className='w-full text-center items-center'>
+
 
       <div className='w-full  text-center items-center mt-1 '>
 
-        <div className=' rounded-lg overflow-hidde text-white mx-auto px-4 py-6 shadow-md transform transition-all hover:scale-110 shadow-fuchsia-700'>
+        <div 
+          className=' 
+            rounded-lg 
+            overflow-hidde 
+            text-white 
+            mx-auto 
+            px-4 py-6
+
+            shadow-md 
+            shadow-fuchsia-700
+
+            transition-all 
+             
+            hover:shadow-xl
+            hover:shadow-fuchsia-700
+            '>
                 
-          <img src={roadmap.imgUrl} alt="videoImg" className='sm:h-42 sm:w-full  object-cover'/>
+          <img src={roadmap.imgUrl} alt="videoImg" className='h-40 w-full  object-cover' />
                 
             <div className='m-4'>
                   
@@ -18,23 +33,20 @@ const RoadmapsCard = ({roadmap}) => {
 
             <a href={roadmap.roadmapUrl}>
             <button 
-                  className="relative group overflow-hidden px-7 h-10 rounded-md bg-fuchsia-500
-                  before:absolute 
-                  before:inset-0 
-                  before:bg-fuchsia-600 
-                  before:scale-y-[0.1] 
-                  before:origin-bottom
-                  before:transition
-                  before:duration-300
-                  hover:before:scale-y-100">
-                    <span className="relative uppercase text-base text-white"> Read </span> 
+                  className='
+                    px-4 py-2 mx-8 my-0 rounded 
+                    bg-gradient-to-tr from-fuchsia-500 via-pink-500 to-rose-500 
+                    hover:bg-gradient-to-tr hover:from-rose-500 hover:via-pink-600 hover:to-fuchsia-500 
+                    hover:scale-110
+                    transition-all duration-300
+                    '>
+                  Read
                 </button>
             </a>
 
         </div>
 
       </div>
-    </div>
   )
 }
 

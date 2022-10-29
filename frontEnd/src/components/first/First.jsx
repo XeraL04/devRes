@@ -1,5 +1,8 @@
 import React from 'react'
 import HeroImage2 from '../../assets/HeroImage2.png'
+import HeroImage3 from '../../assets/heroImage3.svg'
+import HeroImage4 from '../../assets/HeroImage4.svg'
+import HeroImage5 from '../../assets/HeroImage4.svg'
 
 const First = () => {
   return (
@@ -24,7 +27,8 @@ const First = () => {
         <div>
 
           <img
-            src={HeroImage2}
+            // src={HeroImage2}
+            src={HeroImage3}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />

@@ -22,8 +22,21 @@ const Roadmaps = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto '>
             
         <div>
+
+          <div className='flex flex-column'>
+            
+            <div className='pr-3 pt-2'>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+              </svg>
+              
+            </div>
+
+          <h1 className="text-4xl font-bold p-2">Roadmaps</h1>
           
-          <h1 className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Roadmaps</h1>
+
+          </div>          
           
           <div className="flex flex-row justify-between">
 
@@ -31,11 +44,6 @@ const Roadmaps = () => {
           
           <Link to="/roadmaps">
 
-            {/* <button className="rounded-full px-6 py-3  mx-auto uppercase text-xs font-bold cursor-pointer tracking-wider border-fuchsia-600 border-2 hover:scale-105 hover:bg-gradient-to-b hover:from-fuchsia-700 hover:to-pink-500 hover:text-white duration-200 transition-colors text-fuchsia-500">
-              See all
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block"><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" /></svg>
-            </button> */}
-          
           <button className="relative group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-fuchsia-500 to-violet-500 hover:to-violet-600">
                   <span className="relative text-sm text-white"> get started </span>
                   <div className="flex items-center -space-x-3 translate-x-3">
